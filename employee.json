@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+
+    "employeedata": [
+      {
+        "id": 1,
+        "name": "json-server",
+        "email": "typicode",
+        "phone":9999999999
+      }
+    ]
+    
+  
+}

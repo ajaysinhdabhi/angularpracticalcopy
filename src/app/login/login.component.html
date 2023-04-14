@@ -1,0 +1,16 @@
+<div class="container">
+<form [formGroup]="loginForm" class="mx-auto w-50" (ngSubmit)="loginUser()">
+    <div class="mb-5">
+      <label for="exampleInputEmail1" class="form-label">Username</label>
+      <input type="email" name="user" class="form-control" id="exampleInputEmail1" formControlName="user" maxlength="15">
+      <span style="color: red;font-size: x-small;" *ngIf="user && user.invalid && user.touched">*User is not valid</span>
+    </div>
+    <div class="mb-5">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" name="password" class="form-control" id="exampleInputPassword1"  formControlName="password" maxlength="15">
+      <span style="color: red;font-size: x-small;" *ngIf="password && password.invalid && password.touched">*password is not valid</span>
+    </div>
+  
+    <button [disabled]="loginForm.invalid" type="submit" class="btn btn-primary">Login</button>
+  </form>
+</div>

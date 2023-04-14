@@ -1,0 +1,60 @@
+{
+  "employeedata": [
+    {
+      "role": "admin",
+      "username": "ajay123",
+      "password": "ajay123"
+    },
+    {
+      "id": 7,
+      "role": "user",
+      "username": "ved",
+      "email": "tytry@gftdh",
+      "phone": "8855223366",
+      "password": "ved123"
+    },
+    {
+      "id": 8,
+      "role": "user",
+      "username": "ajjubhai",
+      "email": "ajjubhai@test.com",
+      "phone": "9191123457",
+      "password": "ajjubhai123"
+    },
+    {
+      "id": 9,
+      "username": "sdfsdf",
+      "email": "sdsdfsdf@sfd",
+      "phone": "8525852585",
+      "role": "user"
+    },
+    {
+      "id": 10,
+      "username": "were",
+      "email": "erre@dg",
+      "phone": "7412589633",
+      "role": "user"
+    },
+    {
+      "id": 11,
+      "username": "sdfsdf",
+      "email": "sdfsdfsd@vx",
+      "phone": "4444545545",
+      "role": "admin"
+    },
+    {
+      "id": 12,
+      "username": "ewwrw",
+      "email": "werwer@sd",
+      "phone": "7412589634",
+      "role": "admin"
+    },
+    {
+      "id": 13,
+      "username": "wqewq",
+      "email": "ewqe@xfgf",
+      "phone": "4657786568",
+      "role": "user"
+    }
+  ]
+}
